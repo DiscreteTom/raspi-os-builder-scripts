@@ -33,6 +33,8 @@ TIMEZONE_DEFAULT=Asia/Shanghai
 # WPA_COUNTRY=CN
 
 ENABLE_SSH=1
+
+RELEASE=bullseye
 EOF
 
 touch ./stage3/SKIP ./stage4/SKIP ./stage5/SKIP
