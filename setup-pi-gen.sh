@@ -19,13 +19,19 @@ pushd pi-gen
 
 cat > config << EOF
 IMG_NAME=MyRaspi
+
+FIRST_USER_NAME=pi
+FIRST_USER_PASS=raspberry
+
 LOCALE_DEFAULT=en_US.UTF-8
 KEYBOARD_KEYMAP=us
 KEYBOARD_LAYOUT="English (US)"
 TIMEZONE_DEFAULT=Asia/Shanghai
+
 # WPA_ESSID=<wifi name>
 # WPA_PASSWORD=<wifi password>
 # WPA_COUNTRY=CN
+
 ENABLE_SSH=1
 EOF
 
