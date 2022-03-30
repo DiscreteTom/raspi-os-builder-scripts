@@ -62,3 +62,4 @@ echo
 echo '==== Setup Finished ===='
 echo 'Run "cd pi-gen && ./build.sh" to start build.'
 echo "Modify pi-gen/config and pi-gen/stage2/$step/$script to customize your image."
+

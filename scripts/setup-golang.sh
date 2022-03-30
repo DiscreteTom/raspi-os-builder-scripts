@@ -5,3 +5,4 @@ echo 'PATH=$PATH:/usr/local/go/bin' >> /etc/profile
 
 # setup goproxy
 echo "export GOPROXY=https://goproxy.io,direct" >> /etc/profile
+
